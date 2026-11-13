@@ -1,0 +1,35 @@
+name: Live page
+# Builds the live page with CAMAT's site builder and publishes it with GitHub Pages,
+# each time a commit arrives on GitHub.
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install camat==0.2.8
+      - run: camat-build-site site.json _site
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

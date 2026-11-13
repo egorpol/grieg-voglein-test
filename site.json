@@ -1,0 +1,20 @@
+{
+  "title": "Grieg, Vöglein, Op. 43 No. 4",
+  "subtitle": "A facsimile-linked edition",
+  "storage_prefix": "grieg-voglein-test",
+  "works": [
+    {
+      "id": "voglein",
+      "title": "Vöglein",
+      "mei": "mei/work.mei"
+    }
+  ],
+  "facsimile": {
+    "type": "pdf",
+    "pages": "pages/pages.json",
+    "pdf": false,
+    "images": {
+      "copy": true
+    }
+  }
+}
