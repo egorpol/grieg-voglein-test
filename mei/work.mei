@@ -505,7 +505,10 @@
                   </beam>
                 </layer>
               </staff>
-            </measure>
+            <dynam xml:id="seminar-dynam-1" staff="1" place="below" tstamp="1">pp</dynam>
+<slur xml:id="seminar-slur-1" staff="1" curvedir="above" startid="#d418889e221" endid="#d418889e305"/>
+<pedal xml:id="seminar-pedal-1" staff="2" tstamp="1" dir="down"/>
+</measure>
             <measure n="3" xml:id="d418889e526" facs="#zone-grieg-voglein-p0001-003">
               <staff n="1">
                 <layer n="1">
@@ -1052,7 +1055,8 @@
                   </beam>
                 </layer>
               </staff>
-            </measure>
+            <dynam xml:id="seminar-dynam-2" staff="1" place="below" tstamp="1">f</dynam>
+</measure>
             <measure n="16" xml:id="d418889e3940" facs="#zone-grieg-voglein-p0001-016">
               <staff n="1">
                 <layer n="1">
