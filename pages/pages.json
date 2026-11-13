@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "source_id": "grieg-voglein",
+  "pdf": "../../sources/grieg-voglein.pdf",
+  "pdf_sha256": "214771f97ea4ff57a3f022a3a23e6b5189bbae98329aa0764dd849ff2b1d133a",
+  "page_count": 2,
+  "dpi": 300,
+  "renderer": "pdftoppm version 26.10.0",
+  "coordinate_system": "image pixels; origin top-left; x right, y down",
+  "pages": [
+    {
+      "page_id": "grieg-voglein-p0001",
+      "pdf_page_number": 1,
+      "image": "page-0001.png",
+      "width": 2717,
+      "height": 3496,
+      "sha256": "6f03dff123462a8dea79fda029afb1003d8c61ec890fe51b956c8b1223e5ea8f",
+      "printed_page": "42",
+      "role": "music",
+      "mdiv": "1",
+      "systems": [
+        [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        [
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        [
+          "15",
+          "16",
+          "17"
+        ],
+        [
+          "18",
+          "19",
+          "20"
+        ]
+      ]
+    },
+    {
+      "page_id": "grieg-voglein-p0002",
+      "pdf_page_number": 2,
+      "image": "page-0002.png",
+      "width": 2717,
+      "height": 3496,
+      "sha256": "5282928a3bd866333df942f3f8a06fbed0d52dda4956e9b9121be213ead3d7eb",
+      "printed_page": "43",
+      "role": "music",
+      "mdiv": "1",
+      "systems": [
+        [
+          "21",
+          "22",
+          "23"
+        ],
+        [
+          "24",
+          "25",
+          "26"
+        ],
+        [
+          "27",
+          "28",
+          "29",
+          "30"
+        ],
+        [
+          "31",
+          "32",
+          "33",
+          "34",
+          "35"
+        ],
+        [
+          "36",
+          "37",
+          "38",
+          "39"
+        ]
+      ]
+    }
+  ]
+}

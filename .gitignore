@@ -1,0 +1,6 @@
+# Written by the notebooks for your own checks; not part of the edition
+validation-*/
+overlays/
+checkpoints/
+# The live page, built by GitHub Actions
+_site/
