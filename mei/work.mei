@@ -701,6 +701,10 @@
                   </beam>
                 </layer>
               </staff>
+              <annot xml:id="seminar-finding" type="finding" label="repeat" plist="#d418889e1633 #d418889e1653 #d418889e1673 #d418889e1693 #d418889e1812 #d418889e1832 #d418889e1852 #d418889e1872 #d418889e1894 #d418889e1981">
+                <p>Bird-call search (CAMAT 0.2.8), hit 4: bars 6–7, 7 semitones higher than bar 1; 16 of the 16 cells of the call are filled, 10 of the 10 notes match.</p>
+                <p>Instructor test: the call returns a fifth higher with the same rhythm, intervals and landing as bar 1.</p>
+              </annot>
             </measure>
             <measure n="7" xml:id="d418889e1892" facs="#zone-grieg-voglein-p0001-007">
               <staff n="1">
